@@ -52,5 +52,9 @@
 }
 
 .team-icon {
+    fill: currentColor;
+}
+
+.team-icon-link {
     color: #F4F4FD;
 }

@@ -17,9 +17,10 @@
 
 .footer-socials-title {
     color: #FFFFFF;
+    font-weight: 500;
 }
 
-.footer-wrapper {
+.footer-container {
     display: flex;
 }
 
@@ -41,6 +42,12 @@
 
 .footer-socials-icon {
     color: #F4F4FD;
+}
+
+.footer-socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-socials-link:hover,
