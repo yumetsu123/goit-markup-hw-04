@@ -8,9 +8,43 @@
     color: #F4F4FD;
 }
 
-.footer-wrapper {
+.footer-info {
     display: flex;
     flex-direction: column;
     max-width: 264px;
     gap: 16px;
+}
+
+.footer-socials-title {
+    color: #FFFFFF;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-socials {
+    max-width: 208px;
+}
+
+.footer-socials-list {
+    display: flex;
+    column-gap: 16px;
+}
+
+.footer-socials { 
+    margin: 0 0 32px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-socials-icon {
+    color: #F4F4FD;
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus
+ {
+    background-color: #31D0AA;
 }

@@ -30,10 +30,29 @@
 }
 
 .navigation-link {
+    position: relative;
     display: inline-block;
     padding-block: 24px;
     color: #2E2F42;
     font-weight: 500;
+}
+
+.navigation-link::after {
+    border-radius: 2px;
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background-color: #404BBF;
+    transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-link:hover::after,
+.navigation-link:focus::after
+ {
+    width: 100%;
 }
 
 .socials-link {

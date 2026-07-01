@@ -14,3 +14,17 @@
     flex-basis: 264px;
 }
 
+.features-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 100px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+}
+
+.feature-icon {
+    color: #2E2F42;
+}
