@@ -1,0 +1,30 @@
+.portfolio-title {
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.portfolio-subtitle {
+    margin-bottom: 8px;
+    color: #2E2F42;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-item {
+    width: calc((100% - (24px * 2)) / 3);
+    background-color: #fff;
+}
+
+.portfolio-wrapper {
+    padding: 32px 16px;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+}
+

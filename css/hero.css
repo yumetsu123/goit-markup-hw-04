@@ -1,0 +1,38 @@
+.hero {
+    background-color: #2E2F42;
+    padding-block: 188px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.hero-title {
+    max-width: 496px;
+}
+
+.hero-btn {
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-btn {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}

@@ -1,0 +1,38 @@
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    color: #2E2F42;
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-subtitle {
+    color: #2E2F42;
+}
+
+.team-item {
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-inline: auto;
+    padding: 32px 16px;
+    max-width: 232px;
+}
+
+.team-subtitle,
+.team-description {
+    text-align: center;
+}
+
